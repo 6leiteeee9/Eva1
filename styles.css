@@ -1,0 +1,218 @@
+    *
+    /* Estilos generales */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #a18cd1, #fbc2eb);
+      color: #2c2c2c;
+    }
+
+    header {
+      background-color: #6a0572;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #c774e8;
+    }
+
+    section {
+      padding: 40px;
+      background-color: #f3e8ff;
+    }
+
+    article {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    aside {
+      background-color: #e0bbff;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.2rem;
+      border-top: 5px solid #9c27b0;
+      border-radius: 0 0 15px 15px;
+    }
+
+    h1, h2, h3 {
+      color: #4a0072;
+    }
+
+    /* Estilo batallas */
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f3e8ff;
+        margin: 0;
+        padding: 20px;
+      }
+      
+      .battle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+      }
+      
+      .fighter {
+        text-align: center;
+        max-width: 300px;
+      }
+      
+      .fighter img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      }
+      
+      .versus {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #6a0572;
+      }
+      
+      .description {
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      h1 {
+        text-align: center;
+        color: #4a0072;
+        margin-bottom: 40px;
+      }
+
+    /* Estilo Galeria */
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 30px;
+        padding: 40px;
+        background-color: #f3e8ff;
+      }
+      
+      .img-container {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+      
+      .img-container:hover {
+        transform: scale(1.05);
+      }
+      
+      .img-container img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      
+      .img-container p {
+        margin-top: 10px;
+        font-weight: bold;
+        color: #6a0572;
+      }
+
+      /* Estilo Lore */
+
+      .historia {
+        padding: 40px;
+        background: linear-gradient(to bottom, #f3e8ff, #e0bbff);
+      }
+      
+      .historia article {
+        background-color: white;
+        margin-bottom: 30px;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .historia h2 {
+        color: #6a0572;
+        margin-bottom: 15px;
+      }
+      
+      .historia p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #333;
+      }
+      
+      /* Estilo contacto */
+
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #a18cd1, #fbc2eb);
+        color: #2c2c2c;
+      }
+      
+      header {
+        background-color: #6a0572;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      section.contacto {
+        padding: 40px;
+        background-color: #f3e8ff;
+      }
+      
+      section.contacto article {
+        max-width: 600px;
+        margin: auto;
+        background-color: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 1.1rem;
+      }
+      
+      section.contacto p {
+        margin: 10px 0;
+        color: #4a0072;
+      }
+      
+
